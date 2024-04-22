@@ -21,7 +21,7 @@ public class MergeSortedArray_1 {
 
 
     }
-
+//==================================================================================================
     //начать с меньших чисел, более сложно
     void method1(int[] nums1, int m, int[] nums2, int n) {
 
@@ -54,6 +54,8 @@ public class MergeSortedArray_1 {
         }
     }
 
+//==================================================================================================
+
     //nums1 = {1, 4, 6, 8, 0, 0, 0};  length = 7, m = 4,  nums2 = {2, 5, 7}, n = 3;
     public void method2(int[] nums1, int m, int[] nums2, int n) {
         int i = m - 1; //последнее число nums1
@@ -70,6 +72,7 @@ public class MergeSortedArray_1 {
         System.out.println(Arrays.toString(nums1));
     }
 
+//==================================================================================================
 
     //nums1 = {1, 4, 6, 8, 0, 0, 0};  length = 7, m = 4,  nums2 = {2, 5, 7}, n = 3;
     public void method3(int[] nums1, int m, int[] nums2, int n) {
