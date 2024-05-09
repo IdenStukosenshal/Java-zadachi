@@ -2,9 +2,9 @@ package Java_zadachi.TopInterview_150;
 
 import java.util.Arrays;
 
-public class RemoveElement_2 {
+public class Q_2_RemoveElement {
     public static void main(String[] args) {
-        var rm = new RemoveElement_2();
+        var rm = new Q_2_RemoveElement();
 
         int[] nums = {3, 4, 5, 3, 2, 3};
         int val = 3;

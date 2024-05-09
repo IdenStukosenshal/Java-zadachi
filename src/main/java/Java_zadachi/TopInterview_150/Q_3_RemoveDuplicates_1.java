@@ -19,10 +19,10 @@ import java.util.Arrays;
 
  */
 
-public class RemoveDuplicates_3_1 {
+public class Q_3_RemoveDuplicates_1 {
 
     public static void main(String[] args) {
-        RemoveDuplicates_3_1 ex3 = new RemoveDuplicates_3_1();
+        Q_3_RemoveDuplicates_1 ex3 = new Q_3_RemoveDuplicates_1();
 
         int[] nums = {1, 2, 2, 3, 4, 5, 5, 5, 5, 5, 6, 7, 8, 8, 9, 10, 10};
 

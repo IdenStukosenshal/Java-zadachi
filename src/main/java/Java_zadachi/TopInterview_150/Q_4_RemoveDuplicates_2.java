@@ -7,9 +7,9 @@ import java.util.Arrays;
      nums должны содержать конечный результат. Неважно, что вы оставите за пределами первых k элементов
     */
 
-public class RemoveDuplicates_4_2 {
+public class Q_4_RemoveDuplicates_2 {
     public static void main(String[] args) {
-        RemoveDuplicates_4_2 ex = new RemoveDuplicates_4_2();
+        Q_4_RemoveDuplicates_2 ex = new Q_4_RemoveDuplicates_2();
 
         int[] nums = {0, 1, 1, 1, 2, 3, 4, 4, 5, 5, 5, 5, 6, 7, 8, 8, 8};
         System.out.println(ex.removeDuplicates(nums));

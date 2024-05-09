@@ -5,10 +5,10 @@ package Java_zadachi.TopInterview_150;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MajorityElement_5 {
+public class Q_5_MajorityElement {
 
     public static void main(String[] args) {
-        MajorityElement_5 ex5 = new MajorityElement_5();
+        Q_5_MajorityElement ex5 = new Q_5_MajorityElement();
         System.out.println(ex5.majorityElement(new int[]{2,2,1,3,4,2,2}));
 
 

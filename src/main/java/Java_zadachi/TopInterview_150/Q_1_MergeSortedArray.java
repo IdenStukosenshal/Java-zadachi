@@ -6,9 +6,9 @@ import java.util.Arrays;
 https://leetcode.com/problems/merge-sorted-array/description/
  */
 
-public class MergeSortedArray_1 {
+public class Q_1_MergeSortedArray {
     public static void main(String[] args) {
-        MergeSortedArray_1 mm = new MergeSortedArray_1();
+        Q_1_MergeSortedArray mm = new Q_1_MergeSortedArray();
 
 
         int[] nums1 = {1, 4, 7, 8, 10, 0, 0};
