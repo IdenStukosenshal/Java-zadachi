@@ -38,6 +38,7 @@ public class Q_40_IsomorphicStrings {
 
     //решение более быстрое
     public boolean isIsomorphic2(String s, String t) {
+        if(s.length() != t.length()) return false;
         Map<Character, Character> mp = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
             if (mp.get(s.charAt(i)) == null) {
@@ -52,6 +53,7 @@ public class Q_40_IsomorphicStrings {
     }
 
     public boolean isIsomorphic3(String s, String t) {
+        if(s.length() != t.length()) return false;
         Map<Character, Character> mp = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
             if (!mp.containsKey(s.charAt(i))) {
